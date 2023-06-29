@@ -10,6 +10,83 @@ html {
 
 body {
   background-color: #f0f0f0;
+  border: 1px dashed red;
+  height: 100vh;
+}
+
+.encabezado {
+  border: 1px dashed blue;
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.encabezado .encabezado_link {
+  height: 50px;
+  width: 18%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #161515;
+  font-weight: bold;
+  text-decoration: none;
+}
+.encabezado .encabezado_link .encabezado_link_menu {
+  width: 30%;
+}
+.encabezado .encabezado_link .encabezado_link_img {
+  width: 70%;
+  border-radius: 50%;
+}
+
+.cuerpo {
+  border: 1px dashed blue;
+  height: 74%;
+  margin: 15px;
+}
+
+.pais {
+  border: 1px dashed blue;
+  height: 5%;
+  margin: 0px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #505050;
+  font-weight: 300;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pie {
+  border: 1px dashed #ffbf00;
+  height: 5%;
+  margin: 0px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pie .pie_izq {
+  border: 1px dashed #d50365;
+}
+.pie .pie_links {
+  border: 1px dashed rebeccapurple;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.pie .pie_links_a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #505050;
+  text-decoration: none;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=movil.css.map */
