@@ -15,14 +15,19 @@ body {
 }
 
 .encabezado {
-  border: 1px dashed blue;
   margin: 15px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
 }
-.encabezado .encabezado_link {
+.encabezado .encabezado_nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.encabezado .encabezado_nav .encabezado_link {
   height: 50px;
   width: 18%;
   display: flex;
@@ -35,11 +40,11 @@ body {
   font-weight: bold;
   text-decoration: none;
 }
-.encabezado .encabezado_link .encabezado_link_menu {
+.encabezado .encabezado_nav .encabezado_link .encabezado_link_menu {
   width: 30%;
 }
-.encabezado .encabezado_link .encabezado_link_img {
-  width: 70%;
+.encabezado .encabezado_nav .encabezado_link .encabezado_link_img {
+  width: 50%;
   border-radius: 50%;
 }
 
