@@ -15,7 +15,7 @@ body {
 }
 
 .encabezado {
-  margin: 15px;
+  margin: 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -28,8 +28,8 @@ body {
   justify-content: flex-end;
 }
 .encabezado .encabezado_nav .encabezado_link {
-  height: 50px;
-  width: 18%;
+  height: 40px;
+  width: 14%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -44,7 +44,7 @@ body {
   width: 30%;
 }
 .encabezado .encabezado_nav .encabezado_link .encabezado_link_img {
-  width: 50%;
+  width: 55%;
   border-radius: 50%;
 }
 

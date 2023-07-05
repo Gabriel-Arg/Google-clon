@@ -22,7 +22,7 @@ body {
 
 .encabezado {
     // border: 1px dashed blue;
-    margin: 15px;
+    margin: 10px;
 
     display: flex;
     flex-direction: row;
@@ -40,8 +40,8 @@ body {
 
         .encabezado_link {
             // border: 1px dashed darkmagenta;
-            height: 50px;
-            width: 18%;
+            height: 40px;
+            width: 14%;
     
             display: flex;
             flex-direction: row;
@@ -58,7 +58,7 @@ body {
                 width: 30%;
             }
             .encabezado_link_img {
-                width: 50%;
+                width: 55%;
                 border-radius: 50%;
             }
 

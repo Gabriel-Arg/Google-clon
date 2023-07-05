@@ -1,0 +1,21 @@
+@media (min-width: 768px) {
+    
+    .encabezado {
+        margin: 8px;
+    }
+
+    .encabezado .encabezado_nav .encabezado_link {
+        height: 25px;
+        width: 4%;
+        font-size: 8px;
+        color: #161515;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .encabezado .encabezado_nav .encabezado_link .encabezado_link_img {
+        width: 65%;
+        border-radius: 50%;
+    }
+
+}
